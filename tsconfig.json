@@ -1,0 +1,22 @@
+{
+    "compilerOptions": {
+      "target": "es2020",                       /* Versão do ECMAScript a ser direcionada. */
+      "module": "commonjs",                     /* Sistema de módulos a ser utilizado (pode ser alterado conforme a necessidade). */
+      "strict": true,                           /* Habilita todas as opções de strict typing. */
+      "esModuleInterop": true,                   /* Permite a interoperabilidade entre CommonJS e módulos ES. */
+      "skipLibCheck": true,                     /* Pular a verificação de declaração de biblioteca (pode ser alterado conforme a necessidade). */
+      "forceConsistentCasingInFileNames": true, /* Garante consistência nos nomes de arquivos. */
+      "moduleResolution": "node",               /* Resolução de módulos (pode ser alterado conforme a necessidade). */
+      "jsx": "react",                           /* Define o tipo de JSX a ser utilizado (pode ser alterado conforme a necessidade). */
+      "baseUrl": "./src",                       /* Caminho base para a resolução de módulos. */
+      "paths": {
+        "*": ["*", "src/*"]                     /* Mapeamento de caminhos de módulos (ajuste conforme a estrutura do seu projeto). */
+      }
+    },
+    "include": [
+      "src/**/*.ts"                            /* Inclui todos os arquivos TypeScript dentro do diretório src. Ajuste conforme a estrutura do seu projeto. */
+    ],
+    "exclude": [
+      "node_modules"                           /* Exclui o diretório node_modules da compilação TypeScript. */
+    ]
+  }  
